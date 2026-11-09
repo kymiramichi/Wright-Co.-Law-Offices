@@ -22,8 +22,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/hoc5guf.css">
 
     <!-- External CSS -->
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -31,126 +30,79 @@
 <div class="site-wrapper">
 
     <!-- NAVIGATION BAR -->
-   <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-
-    <div class="container">
-
-        <a class="navbar-brand" href="#">Logo/Company Name</a>
-
-        <button class="navbar-toggler" type="button"
-        data-bs-toggle="collapse" data-bs-target="#mainNav">
-
-            <span class="navbar-toggler-icon"></span>
-
-        </button>
-
-        <div class="collapse navbar-collapse" id="mainNav">
-
-            <ul class="navbar-nav ms-auto">
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">About</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Firm Overview</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-
-            </ul>
-
-        </div>
-
-    </div>
-
-</nav>
-
-
-    <!-- ABOUT HERO SECTION -->
-
-    <div class="about-hero">
-
-    <div class="about-container">
-
-        <h1 class="about">ABOUT</h1>
-
-        <h2 class="about">
-            Defending Clients, Finding The Truth
-        </h2>
-
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore aliqua.
-            Lorem ipsum dolor sit amet, consectetur adipiscing.
-        </p>
-
-    </div>
-
-</div>
-   
-
-
-    <!-- WHO WE ARE SECTION -->
-    <section class="about-content">
+    <nav class="navbar navbar-expand-lg">
 
         <div class="container">
 
-            <div class="row align-items-center">
+            <a class="navbar-brand" href="#">Logo/Company Name</a>
 
-                <div class="col-md-6">
+            <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#mainNav"
+            aria-controls="mainNav" aria-expanded="false"
+            aria-label="Toggle navigation">
 
-                    <h3>Who Is Wright & Co?</h3>
+                <span class="navbar-toggler-icon"></span>
 
-                    <p>
-                        Wright & Co Law Offices believes in defending
-                        those who need a voice. Through determination,
-                        dedication, and a commitment to justice,
-                        we work to uncover the truth and protect
-                        our clients.
-                    </p>
+            </button>
 
-                </div>
+            <div class="collapse navbar-collapse" id="mainNav">
 
-                <div class="col-md-6">
+                <ul class="navbar-nav ms-auto">
 
-                    <div class="image-placeholder">
-                        Image
-                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
 
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Firm Overview</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
 
             </div>
 
+        </div>
 
-            <div class="row align-items-center second-content">
+    </nav>
 
-                <div class="col-md-6">
 
-                    <div class="image-placeholder">
-                        Image
-                    </div>
+    <!-- ABOUT HERO SECTION -->
+    <section class="about-hero-container">
 
-                </div>
+        <div class="row align-items-center">
 
-                <div class="col-md-6">
+            <div class="col-md-7">
 
-                    <h3>Our Goal</h3>
+                <h1 class="display-3">ABOUT</h1>
 
-                    <p>
-                        At Wright & Co, our goal is to stand for
-                        justice, uncover the truth, and make sure
-                        every client receives the representation
-                        they deserve. We believe in fighting for
-                        what is right.
-                    </p>
+                <h2 class="lead">Defending Clients, Finding The Truth</h2>
 
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore aliqua.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing.
+                </p>
+
+                <p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">
+                        Learn more »
+                    </a>
+                </p>
+
+            </div>
+
+            <div class="col-md-5">
+
+                <div class="image-placeholder">
+                    Image
                 </div>
 
             </div>
@@ -159,4 +111,118 @@
 
     </section>
 
-    <!-- 3 ICON STAND FOR -->
+
+   
+    <!-- WHO IS WRIGHT & CO? -->
+<div class="row align-items-center first-content">
+
+    <div class="col-md-6">
+        <h3>Who Is Wright & Co?</h3>
+
+        <p>
+            Wright & Co Law Offices believes in defending
+            those who need a voice. Through determination,
+            dedication, and a commitment to justice,
+            we work to uncover the truth and protect
+            our clients.
+        </p>
+    </div>
+
+    <div class="col-md-5">
+        <div class="image-placeholder">
+            Image
+        </div>
+    </div>
+
+</div>
+
+<!-- DIVIDER -->
+<hr class="content-divider">
+
+<!-- OUR GOAL -->
+<div class="row align-items-center second-content">
+
+    <div class="col-md-5">
+        <div class="image-placeholder">
+            Image
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <h3>Our Goal</h3>
+
+        <p>
+            At Wright & Co, our goal is to stand for
+            justice, uncover the truth, and make sure
+            every client receives the representation
+            they deserve. We believe in fighting for
+            what is right.
+        </p>
+    </div>
+
+</div>
+
+ <!-- OUR VALUES SECTION -->
+
+<section class="values-section">
+
+    <div class="container">
+
+        <div class="row text-center justify-content-center">
+
+            <!-- DEFEND -->
+            <div class="col-md-4 value-item">
+
+                <div class="value-icon">
+                    Icon
+                </div>
+
+                <h3>DEFEND</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit,
+                    sed do eiusmod tempor.
+                </p>
+
+            </div>
+
+            <!-- DISCOVER -->
+            <div class="col-md-4 value-item">
+
+                <div class="value-icon">
+                    Icon
+                </div>
+
+                <h3>DISCOVER</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit,
+                    sed do eiusmod tempor.
+                </p>
+
+            </div>
+
+            <!-- FIGHT FOR JUSTICE -->
+            <div class="col-md-4 value-item">
+
+                <div class="value-icon">
+                    Icon
+                </div>
+                <h3>FIGHT FOR JUSTICE</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit,
+                    sed do eiusmod tempor.
+                </p>
+        </div>
+
+    </section>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
